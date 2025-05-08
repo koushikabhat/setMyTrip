@@ -82,7 +82,8 @@ const CreateTrip = () => {
     onSuccess: (codeResponse) => getuserProfile(codeResponse), 
     onError: (error) => console.log(error),
     ux_mode: "redirect",  
-    redirect_uri: "http://localhost:5174"  // Ensure this matches the Google Console URI
+     //redirect_uri: "http://localhost:5174"  Ensure this matches the Google Console URI
+     redirect_uri :  "https://setmytrip-production.up.railway.app"
   });
   
   const getuserProfile = (tokeninfo) => {
