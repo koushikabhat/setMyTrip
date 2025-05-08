@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start" : "serve -s dist"
   },
   "dependencies": {
     "@react-oauth/google": "^0.12.1",
@@ -17,7 +18,8 @@
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.5.1",
-    "run": "^1.5.0"
+    "run": "^1.5.0",
+    "serve": "^14.2.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
