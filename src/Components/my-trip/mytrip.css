@@ -1,0 +1,7 @@
+.trip-container{
+    position: relative;
+    top: 100px;
+    border: 2px solid black;
+    height: 500px;
+    padding-top: 50px;
+}
